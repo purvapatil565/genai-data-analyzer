@@ -1,4 +1,3 @@
-# genai-data-analyzer
 # 🚀 GenAI Data Analysis Automation
 
 **Upload CSV → AI generates EDA code, insights & reports automatically**
