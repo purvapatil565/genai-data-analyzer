@@ -13,7 +13,7 @@ llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 def safe_exec(code):
     """Safely execute generated code"""
     try:
-        exec_globals = {"pd": pd, "import pandas as pd", "import matplotlib.pyplot as plt", "import seaborn as sns"}
+        exec_globals = {"pd": pd}
         exec(code, exec_globals)
         return "Code executed successfully"
     except Exception as e:
